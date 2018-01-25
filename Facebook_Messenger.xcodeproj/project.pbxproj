@@ -16,6 +16,11 @@
 		AF476CD92019CAFE00135EEF /* Facebook_MessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF476CD82019CAFE00135EEF /* Facebook_MessengerUITests.swift */; };
 		AF476CE72019CF4B00135EEF /* FriendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF476CE62019CF4B00135EEF /* FriendCollectionViewCell.swift */; };
 		AF476CE92019FDA200135EEF /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF476CE82019FDA200135EEF /* Friends.swift */; };
+		AFCFE286201A2386003BB3EF /* Message+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFE282201A2386003BB3EF /* Message+CoreDataClass.swift */; };
+		AFCFE287201A2386003BB3EF /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFE283201A2386003BB3EF /* Message+CoreDataProperties.swift */; };
+		AFCFE288201A2386003BB3EF /* Friend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFE284201A2386003BB3EF /* Friend+CoreDataClass.swift */; };
+		AFCFE289201A2386003BB3EF /* Friend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFE285201A2386003BB3EF /* Friend+CoreDataProperties.swift */; };
+		AFCFE28B201A2501003BB3EF /* FriendControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFE28A201A2501003BB3EF /* FriendControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		AF476CDA2019CAFE00135EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF476CE62019CF4B00135EEF /* FriendCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCollectionViewCell.swift; sourceTree = "<group>"; };
 		AF476CE82019FDA200135EEF /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		AFCFE282201A2386003BB3EF /* Message+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AFCFE283201A2386003BB3EF /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AFCFE284201A2386003BB3EF /* Friend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AFCFE285201A2386003BB3EF /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AFCFE28A201A2501003BB3EF /* FriendControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,10 @@
 		AF476CA92019CAFE00135EEF = {
 			isa = PBXGroup;
 			children = (
+				AFCFE282201A2386003BB3EF /* Message+CoreDataClass.swift */,
+				AFCFE283201A2386003BB3EF /* Message+CoreDataProperties.swift */,
+				AFCFE284201A2386003BB3EF /* Friend+CoreDataClass.swift */,
+				AFCFE285201A2386003BB3EF /* Friend+CoreDataProperties.swift */,
 				AF476CB42019CAFE00135EEF /* Facebook_Messenger */,
 				AF476CCC2019CAFE00135EEF /* Facebook_MessengerTests */,
 				AF476CD72019CAFE00135EEF /* Facebook_MessengerUITests */,
@@ -103,6 +117,7 @@
 			children = (
 				AF476CB52019CAFE00135EEF /* AppDelegate.swift */,
 				AF476CB72019CAFE00135EEF /* ViewController.swift */,
+				AFCFE28A201A2501003BB3EF /* FriendControllerExtension.swift */,
 				AF476CE62019CF4B00135EEF /* FriendCollectionViewCell.swift */,
 				AF476CE82019FDA200135EEF /* Friends.swift */,
 				AF476CBF2019CAFE00135EEF /* Assets.xcassets */,
@@ -264,11 +279,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFCFE287201A2386003BB3EF /* Message+CoreDataProperties.swift in Sources */,
+				AFCFE28B201A2501003BB3EF /* FriendControllerExtension.swift in Sources */,
+				AFCFE288201A2386003BB3EF /* Friend+CoreDataClass.swift in Sources */,
 				AF476CE72019CF4B00135EEF /* FriendCollectionViewCell.swift in Sources */,
 				AF476CB82019CAFE00135EEF /* ViewController.swift in Sources */,
+				AFCFE289201A2386003BB3EF /* Friend+CoreDataProperties.swift in Sources */,
 				AF476CBE2019CAFE00135EEF /* Facebook_Messenger.xcdatamodeld in Sources */,
 				AF476CE92019FDA200135EEF /* Friends.swift in Sources */,
 				AF476CB62019CAFE00135EEF /* AppDelegate.swift in Sources */,
+				AFCFE286201A2386003BB3EF /* Message+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

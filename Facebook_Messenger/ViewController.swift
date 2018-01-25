@@ -25,26 +25,6 @@ class FriendsViewController: UICollectionViewController, UICollectionViewDelegat
         setUpData()
     }
     
-    func setUpData()  {
-        let mark = Friend()
-        mark.name = "Mark Zuckerberg"
-        mark.profileImageName = "zuckprofile"
-        
-        let steve = Friend()
-        steve.name = "Steve Jobs"
-        steve.profileImageName = "steve_profile"
-        
-        let message = Message()
-        message.friend = mark
-        message.text = "Hey, are you hanging out tonight"
-        message.date = NSDate()
-        
-        let messageSteve = Message()
-        messageSteve.friend = steve
-        messageSteve.text = "I am on i cloud now"
-        messageSteve.date = NSDate()
-        messages = [message, messageSteve]
-    }
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
 //        if let count =  messages?.count  {
