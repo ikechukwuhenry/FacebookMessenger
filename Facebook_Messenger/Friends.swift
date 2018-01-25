@@ -8,15 +8,16 @@
 
 import Foundation
 
-class Friend: NSObject {
-    var name:String?
-    var profileImageName:String?
-    
-}
+//class Friend: NSObject {
+//    var name:String?
+//    var profileImageName:String?
+//    
+//}
+//
+//class Message: NSObject {
+//    var text:String?
+//    var date:NSDate?
+//    var friend: Friend?
+//    
+//}
 
-class Message: NSObject {
-    var text:String?
-    var date:NSDate?
-    var friend: Friend?
-    
-}
