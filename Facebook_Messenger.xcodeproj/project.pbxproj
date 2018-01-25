@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF476CB62019CAFE00135EEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF476CB52019CAFE00135EEF /* AppDelegate.swift */; };
+		AF476CB82019CAFE00135EEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF476CB72019CAFE00135EEF /* ViewController.swift */; };
+		AF476CBB2019CAFE00135EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF476CB92019CAFE00135EEF /* Main.storyboard */; };
+		AF476CBE2019CAFE00135EEF /* Facebook_Messenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF476CBC2019CAFE00135EEF /* Facebook_Messenger.xcdatamodeld */; };
+		AF476CC02019CAFE00135EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF476CBF2019CAFE00135EEF /* Assets.xcassets */; };
+		AF476CC32019CAFE00135EEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF476CC12019CAFE00135EEF /* LaunchScreen.storyboard */; };
+		AF476CCE2019CAFE00135EEF /* Facebook_MessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF476CCD2019CAFE00135EEF /* Facebook_MessengerTests.swift */; };
+		AF476CD92019CAFE00135EEF /* Facebook_MessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF476CD82019CAFE00135EEF /* Facebook_MessengerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF476CCA2019CAFE00135EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF476CAA2019CAFE00135EEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF476CB12019CAFE00135EEF;
+			remoteInfo = Facebook_Messenger;
+		};
+		AF476CD52019CAFE00135EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF476CAA2019CAFE00135EEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF476CB12019CAFE00135EEF;
+			remoteInfo = Facebook_Messenger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF476CB22019CAFE00135EEF /* Facebook_Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facebook_Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF476CB52019CAFE00135EEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF476CB72019CAFE00135EEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF476CBA2019CAFE00135EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF476CBD2019CAFE00135EEF /* Facebook_Messenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Facebook_Messenger.xcdatamodel; sourceTree = "<group>"; };
+		AF476CBF2019CAFE00135EEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF476CC22019CAFE00135EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF476CC42019CAFE00135EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF476CC92019CAFE00135EEF /* Facebook_MessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Facebook_MessengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF476CCD2019CAFE00135EEF /* Facebook_MessengerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facebook_MessengerTests.swift; sourceTree = "<group>"; };
+		AF476CCF2019CAFE00135EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF476CD42019CAFE00135EEF /* Facebook_MessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Facebook_MessengerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF476CD82019CAFE00135EEF /* Facebook_MessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facebook_MessengerUITests.swift; sourceTree = "<group>"; };
+		AF476CDA2019CAFE00135EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF476CAF2019CAFE00135EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF476CC62019CAFE00135EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF476CD12019CAFE00135EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF476CA92019CAFE00135EEF = {
+			isa = PBXGroup;
+			children = (
+				AF476CB42019CAFE00135EEF /* Facebook_Messenger */,
+				AF476CCC2019CAFE00135EEF /* Facebook_MessengerTests */,
+				AF476CD72019CAFE00135EEF /* Facebook_MessengerUITests */,
+				AF476CB32019CAFE00135EEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF476CB32019CAFE00135EEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF476CB22019CAFE00135EEF /* Facebook_Messenger.app */,
+				AF476CC92019CAFE00135EEF /* Facebook_MessengerTests.xctest */,
+				AF476CD42019CAFE00135EEF /* Facebook_MessengerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF476CB42019CAFE00135EEF /* Facebook_Messenger */ = {
+			isa = PBXGroup;
+			children = (
+				AF476CB52019CAFE00135EEF /* AppDelegate.swift */,
+				AF476CB72019CAFE00135EEF /* ViewController.swift */,
+				AF476CB92019CAFE00135EEF /* Main.storyboard */,
+				AF476CBF2019CAFE00135EEF /* Assets.xcassets */,
+				AF476CC12019CAFE00135EEF /* LaunchScreen.storyboard */,
+				AF476CC42019CAFE00135EEF /* Info.plist */,
+				AF476CBC2019CAFE00135EEF /* Facebook_Messenger.xcdatamodeld */,
+			);
+			path = Facebook_Messenger;
+			sourceTree = "<group>";
+		};
+		AF476CCC2019CAFE00135EEF /* Facebook_MessengerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF476CCD2019CAFE00135EEF /* Facebook_MessengerTests.swift */,
+				AF476CCF2019CAFE00135EEF /* Info.plist */,
+			);
+			path = Facebook_MessengerTests;
+			sourceTree = "<group>";
+		};
+		AF476CD72019CAFE00135EEF /* Facebook_MessengerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF476CD82019CAFE00135EEF /* Facebook_MessengerUITests.swift */,
+				AF476CDA2019CAFE00135EEF /* Info.plist */,
+			);
+			path = Facebook_MessengerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF476CB12019CAFE00135EEF /* Facebook_Messenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF476CDD2019CAFE00135EEF /* Build configuration list for PBXNativeTarget "Facebook_Messenger" */;
+			buildPhases = (
+				AF476CAE2019CAFE00135EEF /* Sources */,
+				AF476CAF2019CAFE00135EEF /* Frameworks */,
+				AF476CB02019CAFE00135EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Facebook_Messenger;
+			productName = Facebook_Messenger;
+			productReference = AF476CB22019CAFE00135EEF /* Facebook_Messenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF476CC82019CAFE00135EEF /* Facebook_MessengerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF476CE02019CAFE00135EEF /* Build configuration list for PBXNativeTarget "Facebook_MessengerTests" */;
+			buildPhases = (
+				AF476CC52019CAFE00135EEF /* Sources */,
+				AF476CC62019CAFE00135EEF /* Frameworks */,
+				AF476CC72019CAFE00135EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF476CCB2019CAFE00135EEF /* PBXTargetDependency */,
+			);
+			name = Facebook_MessengerTests;
+			productName = Facebook_MessengerTests;
+			productReference = AF476CC92019CAFE00135EEF /* Facebook_MessengerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF476CD32019CAFE00135EEF /* Facebook_MessengerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF476CE32019CAFE00135EEF /* Build configuration list for PBXNativeTarget "Facebook_MessengerUITests" */;
+			buildPhases = (
+				AF476CD02019CAFE00135EEF /* Sources */,
+				AF476CD12019CAFE00135EEF /* Frameworks */,
+				AF476CD22019CAFE00135EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF476CD62019CAFE00135EEF /* PBXTargetDependency */,
+			);
+			name = Facebook_MessengerUITests;
+			productName = Facebook_MessengerUITests;
+			productReference = AF476CD42019CAFE00135EEF /* Facebook_MessengerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF476CAA2019CAFE00135EEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ikechukwu Michael";
+				TargetAttributes = {
+					AF476CB12019CAFE00135EEF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AF476CC82019CAFE00135EEF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF476CB12019CAFE00135EEF;
+					};
+					AF476CD32019CAFE00135EEF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF476CB12019CAFE00135EEF;
+					};
+				};
+			};
+			buildConfigurationList = AF476CAD2019CAFE00135EEF /* Build configuration list for PBXProject "Facebook_Messenger" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF476CA92019CAFE00135EEF;
+			productRefGroup = AF476CB32019CAFE00135EEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF476CB12019CAFE00135EEF /* Facebook_Messenger */,
+				AF476CC82019CAFE00135EEF /* Facebook_MessengerTests */,
+				AF476CD32019CAFE00135EEF /* Facebook_MessengerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF476CB02019CAFE00135EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF476CC32019CAFE00135EEF /* LaunchScreen.storyboard in Resources */,
+				AF476CC02019CAFE00135EEF /* Assets.xcassets in Resources */,
+				AF476CBB2019CAFE00135EEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF476CC72019CAFE00135EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF476CD22019CAFE00135EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF476CAE2019CAFE00135EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF476CB82019CAFE00135EEF /* ViewController.swift in Sources */,
+				AF476CBE2019CAFE00135EEF /* Facebook_Messenger.xcdatamodeld in Sources */,
+				AF476CB62019CAFE00135EEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF476CC52019CAFE00135EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF476CCE2019CAFE00135EEF /* Facebook_MessengerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF476CD02019CAFE00135EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF476CD92019CAFE00135EEF /* Facebook_MessengerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF476CCB2019CAFE00135EEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF476CB12019CAFE00135EEF /* Facebook_Messenger */;
+			targetProxy = AF476CCA2019CAFE00135EEF /* PBXContainerItemProxy */;
+		};
+		AF476CD62019CAFE00135EEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF476CB12019CAFE00135EEF /* Facebook_Messenger */;
+			targetProxy = AF476CD52019CAFE00135EEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF476CB92019CAFE00135EEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF476CBA2019CAFE00135EEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF476CC12019CAFE00135EEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF476CC22019CAFE00135EEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF476CDB2019CAFE00135EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF476CDC2019CAFE00135EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF476CDE2019CAFE00135EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKZ7E5XD36;
+				INFOPLIST_FILE = Facebook_Messenger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feynman.Facebook-Messenger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF476CDF2019CAFE00135EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKZ7E5XD36;
+				INFOPLIST_FILE = Facebook_Messenger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feynman.Facebook-Messenger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF476CE12019CAFE00135EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKZ7E5XD36;
+				INFOPLIST_FILE = Facebook_MessengerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feynman.Facebook-MessengerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Facebook_Messenger.app/Facebook_Messenger";
+			};
+			name = Debug;
+		};
+		AF476CE22019CAFE00135EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKZ7E5XD36;
+				INFOPLIST_FILE = Facebook_MessengerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feynman.Facebook-MessengerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Facebook_Messenger.app/Facebook_Messenger";
+			};
+			name = Release;
+		};
+		AF476CE42019CAFE00135EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKZ7E5XD36;
+				INFOPLIST_FILE = Facebook_MessengerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feynman.Facebook-MessengerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Facebook_Messenger;
+			};
+			name = Debug;
+		};
+		AF476CE52019CAFE00135EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKZ7E5XD36;
+				INFOPLIST_FILE = Facebook_MessengerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feynman.Facebook-MessengerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Facebook_Messenger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF476CAD2019CAFE00135EEF /* Build configuration list for PBXProject "Facebook_Messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF476CDB2019CAFE00135EEF /* Debug */,
+				AF476CDC2019CAFE00135EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF476CDD2019CAFE00135EEF /* Build configuration list for PBXNativeTarget "Facebook_Messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF476CDE2019CAFE00135EEF /* Debug */,
+				AF476CDF2019CAFE00135EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF476CE02019CAFE00135EEF /* Build configuration list for PBXNativeTarget "Facebook_MessengerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF476CE12019CAFE00135EEF /* Debug */,
+				AF476CE22019CAFE00135EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF476CE32019CAFE00135EEF /* Build configuration list for PBXNativeTarget "Facebook_MessengerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF476CE42019CAFE00135EEF /* Debug */,
+				AF476CE52019CAFE00135EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF476CBC2019CAFE00135EEF /* Facebook_Messenger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF476CBD2019CAFE00135EEF /* Facebook_Messenger.xcdatamodel */,
+			);
+			currentVersion = AF476CBD2019CAFE00135EEF /* Facebook_Messenger.xcdatamodel */;
+			path = Facebook_Messenger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF476CAA2019CAFE00135EEF /* Project object */;
+}
