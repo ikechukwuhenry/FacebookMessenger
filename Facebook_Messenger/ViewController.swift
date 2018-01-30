@@ -13,7 +13,13 @@ class FriendsViewController: UICollectionViewController, UICollectionViewDelegat
     private let cellId = "cellId"
     
     var messages: [Message]?
+
     
+    // redisplay tabbar on return to home page
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tabBarController?.tabBar.isHidden = false
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +28,7 @@ class FriendsViewController: UICollectionViewController, UICollectionViewDelegat
         navigationController?.title = "Recent"
         collectionView?.register(FriendCollectionViewCell.self, forCellWithReuseIdentifier: cellId)
         collectionView?.alwaysBounceVertical = true
+   
         setUpData()
     }
     
@@ -47,6 +54,20 @@ class FriendsViewController: UICollectionViewController, UICollectionViewDelegat
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: view.frame.width, height: 100)
     }
+    
+    // implement transtion to chat log view controller from tapping current friend's message
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let layout = UICollectionViewFlowLayout()
+        let chatLogController = ChatLogController(collectionViewLayout: layout)
+        // pass data to the controller
+        chatLogController.friend = messages?[indexPath.item].friend
+        navigationController?.pushViewController(chatLogController, animated: true)
+        
+        
+    }
+    
+    
+ 
  
 
 }

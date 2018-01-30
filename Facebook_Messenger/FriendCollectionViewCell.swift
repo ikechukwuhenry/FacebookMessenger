@@ -10,6 +10,17 @@ import UIKit
 
 class FriendCollectionViewCell: BaseCell {
     
+    // set the color of each cell when highlighted
+    override var isHighlighted: Bool{
+        didSet {
+            backgroundColor = isHighlighted ? UIColor(red: 0, green: 134/255, blue: 249/255, alpha: 1.0) : .white
+            nameLabel.textColor = isHighlighted ? .white : .black
+            messageLabel.textColor = isHighlighted ? .white : .black
+            timeLabel.textColor = isHighlighted ? .white : .black
+        }
+    }
+    
+    
     var message: Message? {
         didSet {
             nameLabel.text = message?.friend?.name
@@ -18,7 +29,25 @@ class FriendCollectionViewCell: BaseCell {
                 profileImageView.image = UIImage(named: profileImageName)
                 hasReadImageView.image = UIImage(named: profileImageName)
             }
-            // timeLabel.text = message?.date.
+           
+            // set the time label with the time of message sent
+            if let date = message?.date {
+                
+                let dateFormatter = DateFormatter()
+                dateFormatter.dateFormat = "h:mm a"
+                
+                let elapsedTimeInSeconds = Date().timeIntervalSince(date as Date)
+                
+                let secondInDays: TimeInterval = 60 * 60 * 24
+                
+                if elapsedTimeInSeconds > 7 * secondInDays {
+                    dateFormatter.dateFormat = "MM/dd/yy"
+                } else if elapsedTimeInSeconds > secondInDays {
+                    dateFormatter.dateFormat = "EEE"
+                }
+                
+                timeLabel.text = dateFormatter.string(from: date as Date)
+            }
         }
     }
     let profileImageView: UIImageView = {
@@ -26,6 +55,7 @@ class FriendCollectionViewCell: BaseCell {
         imageView.contentMode = .scaleAspectFill
         imageView.layer.cornerRadius = 34
         imageView.layer.masksToBounds = true
+        // print(imageView.hasAmbiguousLayout)
         return imageView
     }()
     
@@ -71,7 +101,7 @@ class FriendCollectionViewCell: BaseCell {
     
     override func setupViews() {
         //
-        backgroundColor = .white
+        // backgroundColor = .white
         addSubview(profileImageView)
         addSubview(dividerLineView)
         dividerLineView.translatesAutoresizingMaskIntoConstraints = false
@@ -97,7 +127,7 @@ class FriendCollectionViewCell: BaseCell {
     private func setupContainerView(){
         // add a view to contain the texts
         let containerView: UIView = UIView()
-        containerView.backgroundColor = .white
+        // containerView.backgroundColor = .white
         containerView.translatesAutoresizingMaskIntoConstraints = false
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
         messageLabel.translatesAutoresizingMaskIntoConstraints = false
